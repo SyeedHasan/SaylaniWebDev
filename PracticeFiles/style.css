@@ -1,0 +1,99 @@
+/* !Important Usage */
+
+p {
+    font-size: 10px !important;
+    
+}
+/* Universal selector */
+
+* {
+    
+    font-size: 30px;
+}
+
+/* Element selector */
+
+h1 {
+    padding: 20px;
+}
+
+
+/* Class selector */
+
+.note {
+    color: yellow;
+    font-size:40px;
+    font-family: serif;
+}
+
+/* ID Selector */
+
+#introduction {
+    color: purple;
+    background: orange;
+    font-size: 35px;
+}
+
+/* Child Selector using GREATER SIGN " > " */
+li>a {
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Descendant Selector using PLUS SIGN "  "  */
+
+ul p {
+    color: red;
+}
+
+
+/* Adjacent Sibling Selector - Using " + " */
+
+p+h2 {
+
+    color: blueviolet;
+    font-size: 50px;
+    margin: 0 50px;
+
+}
+
+h1+ul {
+    list-style: none;
+
+}
+
+h2+ul {
+    list-style: square;
+}
+
+/* GENERAL SIBLING SELECTOR USING " TILDER ~ " */
+li~p {
+    color: olivedrab;
+    background: plum;
+}
+
+p~h2 {
+    color: yellow;
+    background: green;
+}
+
+
+
+
+
+
+
+
+p+h2 {
+
+    color: blueviolet;
+    font-size: 50px;
+    margin: 0 50px;
+
+}
+
+
+p {
+    font-size: 20px;
+}

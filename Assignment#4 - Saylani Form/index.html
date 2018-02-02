@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saylani Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <img src="saylani-logo.png" alt="Saylani">
+    </center>
+    <h1 align="center">Saylani Mass Training and Job Creation Program</h1>
+    <h3 align="center">Registration / Entry Test Form</h3>
+
+    <form action="http://smt-reg.herokuapp.com/" style="margin-left:20%">
+
+        <label for="courseSelection">Select course: *</label>
+        <label for="batchSelection" style="margin-left: 35%">Select batch: *</label>
+        <br>
+        <br>
+
+        <select name="courseSelection" style="width:350px; height:30px;">
+            <option>Web & Mobile Development</option>
+            <option>A</option>
+            <option>B</option>
+        </select>
+
+        <select name="batchSelection" style="width:200px; height:30px; margin-left:18%">
+            <option>6</option>
+            <option>7</option>
+        </select>
+
+        <br>
+        <br>
+        <input type="text" placeholder="Your name: *" style="width:65%; height:20px;">
+
+        <br>
+        <br>
+        <label for="birthDate">Date of birth: *</label>
+        <label for="Age" style="margin-left: 35%">Age: *</label>
+
+        <br>
+        <input name="birthDate" type="date">
+        <input name="Age" type="number" style="margin-left: 33%">
+
+        <br>
+        <br>
+        <label for="gender">Gender: *</label>
+        <br>
+        <input name="gender" type="radio">Male
+        <input name="gender" type="radio">Female
+
+        <br>
+        <br>
+        <input type="text" placeholder="CNIC/ B-Form #: *" style="width:65%; height:20px;">
+
+        <br>
+        <br>
+        <input type="text" placeholder="Father's Name: *" style="width:65%; height:20px;">
+
+        <br>
+        <br>
+        <input type="text" placeholder="Father's CNIC #: *" style="width:65%; height:20px;">
+
+        <br>
+        <br>
+        <input type="text" placeholder="Permanent Address: *" style="width:65%; height:20px;">
+
+        <br>
+        <br>
+        <input type="text" placeholder="Cell Phone #: *" style="width:65%; height:20px;">
+
+        <br>
+        <br>
+        <input type="text" placeholder="Email Address: *" style="width:65%; height:20px;">
+
+        <br>
+        <br>
+        <label for="qualification">Last qualification: *</label>
+        <br>
+        <input type="radio">None
+        <input type="radio">Matric
+        <input type="radio">Intermediate
+        <input type="radio">Bachelors
+        <input type="radio">Graduate
+        <input type="radio">PhD
+
+        <br>
+        <br>
+
+        <label>Upload your recent image: (face front, without glasses)</label>
+        <br>
+        <input type="file" style="border-bottom:none">
+        <p>Only PNG or JPG is allowed (Size
+            < 1MB )</p>
+
+                <p style="font-weight: bold">Declaration Undertaking: *</p>
+                <ol>
+                    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best
+                        of my knowledge. Further, I will abide by my all the establish and future regulation and policies
+                        of SWIT</li>
+                    <li>I hereby accept the responsibilites of the good conduct and guarantee that I will not be involved in
+                        any other activity, polical or ethic, but learning during my stay in the program.</li>
+                    <li>Upon completion of course, I will complete the required project by SWIT.</li>
+                    <li>Defiance will render my admission cancelled at any point in time.</li>
+                </ol>
+
+                <input type="checkbox">I agee with the above terms.
+                <br>
+                <br>
+                <img src="captcha.png" alt="Captcha">
+                <br>
+                <br>
+                <button type="submit">Submit Form</button>
+    </form>
+
+</body>
+
+</html>

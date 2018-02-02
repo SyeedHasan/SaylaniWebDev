@@ -1,0 +1,56 @@
+
+
+tr { height: 30px; }
+
+td {
+    text-align: center;
+    font-size:19px;
+    height: 70px;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+}
+
+th {    font-size: 13px;    }
+
+.enlarge {  font-size: 40px;    }
+
+.large {    font-size: 20px;    }
+
+/* CLASSES HAVING COLORS */
+
+.red {
+    background: #FA8072;    
+}
+
+.yellow {
+    background: yellow;
+}
+
+.pink {
+    background: pink;
+}
+
+.steelblue {
+    background: steelblue;
+}
+
+.coral {
+    background: coral;
+}
+
+
+.indianred {
+    background:indianred ;
+}
+
+.peachpuff {
+    background:peachpuff ;
+}
+
+.linen {
+    background:linen ;
+}
+
+.aqua {
+    background: aquamarine;
+}
