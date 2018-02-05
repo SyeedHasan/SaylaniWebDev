@@ -1,0 +1,29 @@
+.mainImage {
+    width: 650px;
+    margin: 100px auto;
+}
+
+.mainImage>img {
+    border: 5px solid black;
+}
+
+body {
+    padding: 60px;
+    background: white;
+}
+
+table {
+    width: 100%;
+}
+
+td,
+th {
+    padding: 10px 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.footable {
+    width: 100%;
+    margin: 0 auto;
+}
