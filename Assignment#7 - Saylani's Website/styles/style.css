@@ -92,6 +92,8 @@ body {
     width: 100%;
     margin-top: 40px;
     height: 450px;
+    max-height: 450px;
+    overflow: hidden;
 }
 
 img#bgLogo {
@@ -192,6 +194,9 @@ div.containGrid img {
     margin-bottom: 5px;
 }
 
+div.leftMarginate {
+    margin-left: 25px;
+}
 
 /* FOOTER CSS */
 
@@ -312,29 +317,25 @@ footer#fh5co-footer {
     display: block;
 }
 
-.btn-primary {
-    background: #F85A16;
-    color: #fff;
-    border: 2px solid #F85A16;
+@media screen and (max-width:1188px ){ 
+    div.leftMarginate {
+        margin-left: 100px;
+    }
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-    background: #f96c2f !important;
-    border-color: #f96c2f !important;
+@media screen and (max-width:977px ){ 
+    div.leftMarginate {
+        margin-left: 27%;
+    }
 }
 
-.btn-primary.btn-outline {
-    background: transparent;
-    color: #F85A16;
-    border: 1px solid #F85A16;
+
+@media screen and (max-width:568px ){ 
+    div.leftMarginate {
+        margin-left: 12.5%;
+    }
 }
 
-.btn-primary.btn-outline:hover,
-.btn-primary.btn-outline:focus,
-.btn-primary.btn-outline:active {
-    background: #F85A16;
-    color: #fff;
+body {
+    min-width: 480px;
 }
-
