@@ -7,7 +7,7 @@
 }
 
 .carousel {
-    margin: 100px auto;
+    margin: 50px auto;
     /* width: 700px; */
     width: 80%;
     height: 50%;
@@ -16,4 +16,24 @@
 .mainBg2 {
     width: 80%;
     margin: 0 auto;
+}
+
+.mainContent {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1.contentHeader {
+    background: black;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 2em;
+
+}
+
+p.contentParas {
+    border: 1px solid ghostwhite;
+    font-size: 18px;
 }
