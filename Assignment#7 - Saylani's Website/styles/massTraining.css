@@ -1,0 +1,19 @@
+/* Edits in carousel */
+
+.item img {
+    height: 520px !important;
+    /* width: 850px !important; */
+    width: 100%;
+}
+
+.carousel {
+    margin: 100px auto;
+    /* width: 700px; */
+    width: 80%;
+    height: 50%;
+}
+
+.mainBg2 {
+    width: 80%;
+    margin: 0 auto;
+}

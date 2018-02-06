@@ -1,6 +1,6 @@
 .mainImage {
     width: 650px;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .mainImage>img {
@@ -12,18 +12,33 @@ body {
     background: white;
 }
 
-table {
-    width: 100%;
-}
-
 td,
 th {
-    padding: 10px 20px;
-    text-align: left;
-    border: 1px solid #ccc;
+    padding: 20px;
 }
 
-.footable {
-    width: 100%;
-    margin: 0 auto;
+th {
+    background: black;
+    color: white;
+}
+
+body {
+    /* Gradient */
+    background: #283c86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283c86, #45a247);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283c86, #45a247);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1D976C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #1D976C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* opacity: 0.75;     */
+}
+
+table {
+    background: white;
 }
