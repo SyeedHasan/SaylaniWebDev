@@ -198,6 +198,7 @@ div.leftMarginate {
     margin-left: 25px;
 }
 
+
 /* FOOTER CSS */
 
 footer#fh5co-footer {
@@ -309,7 +310,7 @@ footer#fh5co-footer {
     text-transform: uppercase;
 }
 
-#fh5co-footer .fh5co-widget p   {
+#fh5co-footer .fh5co-widget p {
     color: white;
 }
 
@@ -317,20 +318,19 @@ footer#fh5co-footer {
     display: block;
 }
 
-@media screen and (max-width:1188px ){ 
+@media screen and (max-width:1188px) {
     div.leftMarginate {
         margin-left: 100px;
     }
 }
 
-@media screen and (max-width:977px ){ 
+@media screen and (max-width:977px) {
     div.leftMarginate {
         margin-left: 27%;
     }
 }
 
-
-@media screen and (max-width:568px ){ 
+@media screen and (max-width:568px) {
     div.leftMarginate {
         margin-left: 12.5%;
     }

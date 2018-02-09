@@ -1,0 +1,22 @@
+.mainBg {
+    height: 300px;
+}
+
+div.leftMarginate {
+    margin-left: 20px;
+}
+
+.containGrid {
+    width: 500px;
+    max-height: 500px;
+    height: 100%;
+    margin-right: 10px;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+}
+
+div.containGrid img {
+    border: 5px solid black;
+    margin-bottom: 5px;
+    margin: 0 auto;
+}
