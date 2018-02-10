@@ -18,6 +18,98 @@
 
 
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* CONTENT CSS */
+
+        .col-text {
+            height: 20em;
+        }
+
+        .grid-flex {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-flex: 1;
+            -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            flex-direction: row;
+            -webkit-flex-direction: row;
+            -webkit-flex-wrap: wrap;
+            -webkit-justify-content: space-around;
+        }
+
+        .col {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+        }
+
+        .col-left {
+            -webkit-box-ordinal-group: -1;
+            -webkit-order: -1;
+            -ms-flex-order: -1;
+            order: -1;
+        }
+
+        .col-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            margin-bottom: 20px;
+        }
+
+        .Aligner-item {
+            width: 60%;
+        }
+
+        .col-image {
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        @media (max-width: 640px) {
+            .grid-flex {
+                height: 40em;
+                display: -webkit-flex;
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+            .col {
+                order: vertical;
+            }
+            .col-left {
+                -webkit-box-ordinal-group: 0;
+                -webkit-order: 0;
+                -ms-flex-order: 0;
+                order: 0;
+            }
+            .col-text div p {
+                padding: 1em;
+            }
+            .Aligner-item {
+                width: 90%;
+            }
+        }
+
+        section.imgTextDiv {
+            margin-top: 40px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        div.Aligner-item>h1 {
+            font-size: 30px;
+        }
+
+        .mainBg {
+            height: 320px;
+        }
+    </style>
 
     <title>Saylani Welfare</title>
 </head>
@@ -77,60 +169,61 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Web Services
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="onlineQuran.html">Online Quran Academy</a>
-                            </li>
-                            <li>
-                                <a href="androidApps.html">Android Apps</a>
-                            </li>
 
-                            <li class="active">
-                                <a>All below are EMPTY</a>
-                            </li>
-                            <li>
-                                <a href="#">Book Section</a>
-                            </li>
-                            <li>
-                                <a href="#">Istikhara</a>
-                            </li>
-                            <li>
-                                <a href="#">Hajj</a>
-                            </li>
-
-                            <li>
-                                <a href="#">Rohani Ejtema</a>
-                            </li>
-                            <li>
-                                <a href="#">Noor ul Quran</a>
-                            </li>
-                            <li>
-                                <a href="#">Jobs</a>
-                            </li>
-                            <li>
-                                <a href="#">Articles</a>
-                            </li>
-
-                            <li>
-                                <a href="#">News Events</a>
-                            </li>
-                            <li>
-                                <a href="#">Media Library</a>
-                            </li>
-                            <li>
-                                <a href="#">Picture Gallery</a>
-                            </li>
-                            <li role="separator" class="divider"></li>
-                            <li>
-                                <a href="#">Islamic Guidlines for Traders</a>
-                            </li>
-
-                        </ul>
-                    </li>
+                    <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Web Services
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="onlineQuran.html">Online Quran Academy</a>
+                                </li>
+                                <li class="active">
+                                    <a href="androidApps.html">Android Apps</a>
+                                </li>
+    
+                                <li class="active">
+                                    <a>All below are EMPTY</a>
+                                </li>
+                                <li>
+                                    <a href="#">Book Section</a>
+                                </li>
+                                <li>
+                                    <a href="#">Istikhara</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hajj</a>
+                                </li>
+    
+                                <li>
+                                    <a href="#">Rohani Ejtema</a>
+                                </li>
+                                <li>
+                                    <a href="#">Noor ul Quran</a>
+                                </li>
+                                <li>
+                                    <a href="#">Jobs</a>
+                                </li>
+                                <li>
+                                    <a href="#">Articles</a>
+                                </li>
+    
+                                <li>
+                                    <a href="#">News Events</a>
+                                </li>
+                                <li>
+                                    <a href="#">Media Library</a>
+                                </li>
+                                <li>
+                                    <a href="#">Picture Gallery</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li>
+                                    <a href="#">Islamic Guidlines for Traders</a>
+                                </li>
+    
+                            </ul>
+                        </li>
 
                     <li>
                         <a href="futureProjects.html">
@@ -233,21 +326,118 @@
             <img id="bgLogo" src="assets/saylani-logo.png" alt="Saylani Logo">
         </div>
 
-        <h1 style="font-size:30px">Saylani Welfare - </h1>
+        <h1 style="font-size:30px">Saylani Welfare - Android Applications</h1>
         <div class="mainBg2">
 
             <p id="description" style="font-size: 16px" align="center">
-                Saylani Mass Training & Job creation Program is DevBootcamp , which calls itself an “apprenticeship on steroids, ” is one
-                of a new breed of computer programming school that’s proliferating in San Francisco and other US tech hubs.
-                These “hacker boot camps ” promise to teach students how to write code in two or three months and help them
-                get hired as web developers, with starting salaries between $500 – $1000, often within days or weeks of graduation.
-                We’re focused on extreme employ ability.
-                <br>Saylani Mass Training has trained about 500 students, and 95 percent of them have been hired as software
-                developers within a few months pf graduation . Its now opening campus in all over Pakistan.
-
+                All applications devloped by the organization are listed below.
             </p>
         </div>
     </div>
+
+
+
+    <!-- MAIN CONTENT -->
+
+
+    <section class="imgTextDiv">
+        <div class="grid-flex">
+            <div class="col col-image" style="background-image: url('assets/androidApps/1.png');">
+            </div>
+            <div class="col col-text">
+                <div class="Aligner-item">
+                    <h1>Saylani Welfare Offical Application</h1>
+                    <p>
+                        Through this mobile application we intend to connect with those who are always on the go and wants to know what’s the current
+                        update of our efforts. This application focuses on communicating all information about Saylani welfare
+                        services in the society and also allows you to become a participant in it.
+                    </p>
+                    <center>
+                        <input type="button" value="Download Now">
+                    </center>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-flex">
+            <div class="col col-image" style="background-image: url('assets/androidApps/2.png');">
+                &nbsp;
+            </div>
+            <div class="col col-text col-left">
+                <div class="Aligner-item">
+                    <h1>Tafseer-e-Quran Application</h1>
+                    <p>Tafseer means explanation of Quran. The best way to explain any Quranic Verse is to support it first
+                        with various other related Quranic Verses. Afterwards, Hadith is used for strengthening such an explanation
+                        or tafseer. This Application has been developed to facilitate the reading of very popular Tafseer
+                        by “Mufti Asif Abdullah ” in Urdu language.
+                    </p>
+                    <center>
+                        <input type="button" value="Download Now">
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-flex">
+            <div class="col col-image" style="background-image: url('assets/androidApps/3.jpg');">
+                &nbsp;
+            </div>
+            <div class="col col-text">
+                <div class="Aligner-item">
+                    <h1>Al-Hajj Application</h1>
+                    <p> The Al Hajj Application provides comprehensive information related to Hajj in one compact package!… It’s
+                        easy to navigate “one page fit” interface provides a step-by-step description of all Hajj related
+                        matters and takes away the agony of flipping through various pages to get you through directly to
+                        the information that you really want! .This app also includes a “Tasbeeh Counter”.
+                    </p>
+                    <center>
+                        <input type="button" value="Download Now">
+                    </center>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-flex">
+            <div class="col col-image" style="background-image: url('assets/androidApps/4.webp');">
+                &nbsp;
+            </div>
+            <div class="col col-text col-left">
+                <div class="Aligner-item">
+                    <h1>Daily Momin Application</h1>
+                    <p>
+                        We have been sent to earth for a purpose. Today all the muslims are occupied fully with zillions of activities to become
+                        successful in this world. We have forgotten that our core objective in this world is to prepare for
+                        the rozah hashar and day of judgement. Since we are sent to the world we do have worldy obligations
+                        but our objective should still be clear to prepare for jannah.In this busy world we need to use technology
+                        to help us remind our basic religious obligations to be a momin.
+                    </p>
+                    <center>
+                        <input type="button" value="Download Now">
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="grid-flex">
+            <div class="col col-image" style="background-image: url('assets/androidApps/5.webp');">
+                &nbsp;
+            </div>
+            <div class="col col-text">
+                <div class="Aligner-item">
+                    <h1>Khatam-e-Qadria Application</h1>
+                    <p>
+                        Khatam-E-Qadria is the Complete Book App for those who want to lear or Khatam-E-Qadria at the their Home, Office or Anywhere.
+                    </p>
+                    <center>
+                        <input type="button" value="Download Now">
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF CONTENT -->
 
 
     <div class="container">

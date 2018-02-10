@@ -47,6 +47,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    margin-bottom:20px;
 }
 
 .Aligner-item {
@@ -56,6 +58,7 @@
 .col-image {
     background-size: contain;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 640px) {
