@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    width: 100%;
+    padding-top: 40px;
+    font-family: 'Century Gothic';
+    /*Default on my system, change*/
+    /* text-transform: none; */
+    font-size: 15px;
+}
+
+.main-block{
+    /* min-width: 750px; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #e7e7e7 ;
+    text-transform: none;
+}
+
+.main-image{
+    width: 100%; 
+    height: auto!important ;
+    border: 0px; 
+    margin-bottom: 20px;
+
+}
+
+.main-content{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #333 ;
+    line-height: 1.75 ;
+}
+
+.uppercase{
+    text-transform: uppercase ;
+}
+
+p, h4{
+    padding-bottom: 10px;
+    padding-top: none;
+}
+
+table{
+    border: 1px solid #e7e7e7 ;
+    margin-bottom: 30px;
+    width: 100% ;
+}
+
+td{
+    padding: 10px;
+    border: 1px solid #e7e7e7 ; 
+}
+
+.bank-table{
+    width: 100%;
+}
+
+h4:hover{
+    background-color: #93F9B9;
+    font-size: 24px;
+    transition: 1s ;
+    padding: 10px;
+}
+
+.mainBg {
+    height: 320px;
+    width: 100%;
+}
+
+table.sizeIt {
+    width: 100%;
+}
+
+@media screen and (max-width: 500px){
+    .main-block {
+        width: 100%;
+    }
+}
