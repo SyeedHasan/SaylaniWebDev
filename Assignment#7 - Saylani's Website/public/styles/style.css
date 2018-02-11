@@ -52,6 +52,9 @@ body {
     font-weight: bold;
 }
 
+
+/*  #45a247 */
+
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
@@ -90,7 +93,7 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* opacity: 0.75;     */
     width: 100%;
-    margin-top: 40px;
+    /* margin-top: 0px; */
     height: 450px;
     max-height: 450px;
     overflow: hidden;
@@ -338,4 +341,19 @@ footer#fh5co-footer {
 
 body {
     min-width: 480px;
+}
+
+div.donationDiv {
+    margin-top: 20px;
+    height: 50px;
+    color: white;
+    background: rgb(51, 51, 51);
+    text-align: center;
+    padding-top: 20px;
+}
+
+a#donateLink,
+a#donateLink:hover,
+a#donateLink:focus {
+    color: white;
 }
