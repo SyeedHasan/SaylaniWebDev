@@ -147,10 +147,28 @@ document.write("- Remarks: "+ remarks + "<br>");
 
 
 //TASK 10
+var name1 = "lays";
+var name2 = "prince";
+var price1 = 5;
+var price2 = 50;
+var quantity1= 20;
+var quanitity2 = 50;
+var charges = 500;
 
+var totalCost = price1*quantity1 + quanitity2*price2;
+if(totalCost >=2000){
+    alert("Discountedd price!");
+    totalCost = totalCost - (20/100)*totalCost;
+}
 
 //TASK 11
-
+var num = 3;
+if(num == 3){
+    alert("Bingo you're right");
+}
+else {
+    alert("you're wrong!");
+}
 
 //TASK 12
 
@@ -196,8 +214,19 @@ else {
 }
 
 //TASK 16
-
-//TASK 17
+var temp = +prompt("Enter temperature:");
+if(temp>40){
+    alert("too hot");
+}
+else if(temp>30){
+    alert("Normal weather");
+}
+else if(temp >20){
+    alert("cool");
+}
+else {
+    alert("omg, so cool");
+}
 
 //TASK 18
 
@@ -237,6 +266,16 @@ else {
 }
 
 //TASK 21
+var lang = prompt("Enter code: ", "en");
+if(lang == "es"){
+    alert("HOLA!");
+}
+else if(lang == "ge"){
+    alert("hallo")
+}
+else{
+    alert("HI!");
+}
 
 //TASK 22
 var num = +prompt("Enter a number: " );
@@ -248,3 +287,7 @@ else {
 }
 
 //TASK 23
+var a = prompt("Enter noun: ");
+var num = +prompt("Enter a number:");
+
+alert(num + " " + a + "s");
