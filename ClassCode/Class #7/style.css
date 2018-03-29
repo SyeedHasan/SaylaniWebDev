@@ -1,0 +1,52 @@
+body 
+{  
+    font-size: 30px;
+    font-family: 'Century Gothic';  
+    background-color: rgb(185,179,175);
+    
+} 
+
+h1, p {
+      color: rgb(255,255,255);
+}
+
+h3 {
+    color: yellow;
+}
+
+h4 {
+    color: indianred;    
+}
+
+h5 {
+    color: lightgreen;
+}
+
+h6 {
+    color: lightseagreen;
+}
+
+.new {
+    background: mediumpurple;
+}
+
+p#top {
+    color: red;
+}
+
+li>p.A {
+    color: orange;
+}
+
+li>p#B {
+    color: orangered;
+}
+
+li p {
+    background: white;
+    border: 3px solid cornflowerblue;
+}
+
+ul:nth-child(1){
+    color: blue;
+}

@@ -1,0 +1,102 @@
+<!--11978-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Marksheet Form</h1>
+    <h3>Please fill this form and submit it. </h3>
+    <hr>
+    <form action="http://www.example.com"></form>
+    <p>Enter your name:<input type="text" name="username" size="30" maxlength="10" /></p>
+
+    <p>Enter your roll number:<input type="text" name="rollNumber" size="30" maxlength="6" /></p>
+
+    <p>Enter your marks in Maths:<input type="number" name="mathMarks" size="30" maxlength="3" /></p>
+
+    <p>Enter your marks in English: <input type="number" name="engMarks" size="30" maxlength="3" /></p>
+
+    <p>Enter your marks in Web:<input type="number" name="mathMarks" size="30" maxlength="3" /></p>
+
+    <p>Enter your marks in PL:<input type="number" name="engMarks" size="50" maxlength="3" /></p>
+
+    <p>Enter your marks in CS:<input type="number" name="mathMarks" size="30" maxlength="3" /></p>
+
+    <p>Enter your marks in DS:<input type="number" name="engMarks" size="30" maxlength="3" /></p>
+
+    <hr>
+
+    <p>Do you wish to login to your account? </p>
+    <p>Enter your password: <input type="password" name="password" maxlength="15" minlength="5"></p>
+
+    <hr>
+    <p>Give us your feedback:</p>
+    <textarea cols="30" rows="2"></textarea>
+
+    <hr>
+
+    <p>Select your college:</p>
+    <select>
+            <option value="Tabanis">Tabanis</option>
+            <option value="Adamjee">Adamjee</option>
+            <option selected>St. P</option>
+        </select>
+    <hr>
+
+    <p>Select any one: </p>
+    <input type="checkbox" checked>User1
+    <input type="checkbox">User2
+    <input type="checkbox">User3
+
+    <p>Select any one: </p>
+    <input type="radio" checked>1
+    <input type="radio">2
+    <input type="radio">3
+
+    <p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or
+        command key on a Mac while selecting different options.)
+    </p>
+    <select name="instruments" size="4" multiple="multiple">  
+        <option value="guitar" selected="selected">   Guitar</option>
+        <option value="drums">Drums</option>  
+        <option value="keyboard"    selected="selected">Keyboard</option>  
+        <option value="bass">Bass</option> </select>
+
+    <p>Upload an image: </p>
+    <input type="file" name="browse"><br/>
+    <input type="submit" value="Upload" />
+
+    <input type="image" src="d.jpg">
+
+    <fieldset>
+        <legend>Contact details</legend>
+        <label>Email:<br />
+            <input type="text" name="email" />
+        </label><br />
+
+        <label>Mobile:<br /> 
+        <input type="text" name="mobile" />
+        </label>
+        <br/>
+
+        <label>Telephone:<br /> 
+        <input type="text" name="telephone" /></label>
+
+    </fieldset>
+
+
+    <input type="date">
+    <input type="email" required>
+    <br>
+    <input type="search">
+    </form>
+
+</body>
+
+</html>

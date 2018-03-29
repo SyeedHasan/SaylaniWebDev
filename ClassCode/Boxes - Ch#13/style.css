@@ -1,0 +1,73 @@
+
+
+
+h1 {
+    background: indianred;
+    color: white;
+    width: 50%;
+    height: 100px;
+}
+
+p {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+
+    max-width: 300px;
+    min-width:200px;
+    min-height: 300px;
+    max-height: 400px;
+    overflow: scroll;
+    margin: 100px auto;
+    padding:100px 200px;
+
+    box-shadow: inset 50px 40px 500px yellowgreen;
+    -webkit-border-image: url('2.jpg') 50 50 50 50 round;
+}
+
+
+h2 {
+    /* border-color: blue;
+    border-width: 15px;
+    border-style: dotted; */
+
+    /* border-color: rgb(236, 19, 19) rgb(16, 104, 50);
+    border-style: dotted double;
+    border-width: 10px 20px; */
+
+    /* border-top-color: blue;
+    border-top-width: 50px;
+    border-top-style: dotted;
+
+    border-bottom-color: red;
+    border-bottom-width: 50px;
+    border-bottom-style: solid;
+
+    border-left-color: orange;
+    border-left-width: 35px;
+    border-left-style: ridge;
+
+    border-right-color: orange;
+    border-right-width: 35px;
+    border-right-style: ridge; */
+    display: inline-block;
+    border: 100px solid peru;
+    border-radius: 20px;
+
+}
+
+a {
+    display: block;
+    font-size: 30px;
+    color: black;
+}
+
+a:nth-of-type(odd) {
+    display: none;
+}
+
+h3 {
+    display: inline;
+}

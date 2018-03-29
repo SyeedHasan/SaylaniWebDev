@@ -1,0 +1,50 @@
+body 
+{  
+    font-size: 30px;
+    font-family: 'Century Gothic';  
+    background-color: rgb(185,179,175);
+    
+} 
+
+h1{
+      color: rgb(255,255,255);
+}
+
+h3 {
+    color: yellow;
+}
+
+h4 {
+    color: indianred;    
+}
+
+h5 {
+    color: lightgreen;
+}
+
+h6 {
+    color: lightseagreen;
+}
+
+.new {
+    background: mediumpurple;
+}
+
+#red {
+    color: red;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#green {
+    color: seagreen;
+}
+
+.noColor {
+    color: black;
+    background: white;
+    font-size: 30px;
+    font-family: 'Sans Serif';
+}

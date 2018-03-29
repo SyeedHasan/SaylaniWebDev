@@ -1,0 +1,6 @@
+1- Install node
+2- Install Firebase ( npm install -g firebase-tools)
+3- Login to firebase by : firebase Login
+4- Initialize the project: firebase init
+5- Check hosting by pressing spacebar
+6- Choose the public folder (Make a public folder in your project di</html>
