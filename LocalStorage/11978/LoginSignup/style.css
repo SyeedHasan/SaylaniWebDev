@@ -1,0 +1,21 @@
+
+body {
+    margin: 20px;
+    font-family: 'Century Gothic';
+    background: indianred;
+    color: black;
+    font-size: 15px;
+}
+
+
+
+input, button {
+    display: block;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+}

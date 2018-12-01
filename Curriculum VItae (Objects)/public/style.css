@@ -1,0 +1,153 @@
+/* ********************** */
+
+/* main CV page */
+
+/* ********************** */
+
+html,
+body {
+    background-color: #7a7a7a;
+}
+
+.main {
+    /* font-family: "CENTURY GOTHI-C"; */
+    width: 60%;
+    /* border: 2px solid black; */
+    margin: 100px auto;
+    min-width: 536px;
+    background-color: #ffffff;
+}
+
+/* ********************** */
+
+/* photo div */
+
+/* ********************** */
+
+.photoBack {
+    background-image: url("images/back.jpg");
+    height: 324px;
+    min-width: 536px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.nameBox {
+    border: 10px solid #F8AF23;
+}
+
+.nameTable {
+    width: 70%;
+    height: 100px;
+    margin: 0px auto;
+}
+
+/* .nameCol{
+    
+} */
+
+.name {
+    color: #F8AF23;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    font-style: bold;
+}
+
+.designation {
+    text-align: center;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+/* .desBox{
+
+} */
+
+/* ********************** */
+
+/* detail div */
+
+/* ********************** */
+
+.detail {
+    width: 97%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.me {
+    /* height: 600px; */
+    background-color: #f7f7f7;
+}
+
+.photo {
+    margin: 50px auto;
+    width: 216px;
+}
+
+.mePara {
+    padding: 20px 20px 30px 20px;
+}
+
+.meHead {
+    border-bottom: 2px solid #7a7a7a;
+    font-size: 22px;
+    padding: 20px 20px 0px 20px;
+}
+
+.meLink {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.meLinkDiv {
+    margin: 30px 0 60px 0;
+}
+
+.experience {
+    /* height: 600px; */
+    padding: 0px 50px;
+    background-color: #ffffff;
+}
+
+.expTable {
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 100%;
+}
+
+.expHead {
+    border-bottom: 2px solid #F8AF23;
+    font-size: 22px;
+}
+
+.marginBottom {
+    margin-bottom: 50px;
+}
+
+/* ********************** */
+
+/* footer div */
+
+/* ********************** */
+
+.footer {
+    padding: 40px;
+    background-color: #F8AF23;
+}
+
+img.my {
+    width: 30px;
+    height: 30px;
+}
+
+#QR {
+    height: 150px;
+    width: 150px;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+}

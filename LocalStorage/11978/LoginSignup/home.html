@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Home Page</h1>
+    <h5 id="welcome"></h5>
+
+
+    <script>
+
+        // var welcomeMsg = document.getElementById('welcome');
+        var name = localStorage.getItem('Name');
+        document.getElementById('welcome').textContent = "Welcome back, " + name + " !"; //"Welcome back, " + name + " !";
+        // console.log(welcomeMsg);
+
+    </script>
+
+
+
+
+</body>
+
+</html>
